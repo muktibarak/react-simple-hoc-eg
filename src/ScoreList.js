@@ -5,7 +5,7 @@ function ScoreList() {
   return (
     <div>
       {scores.map(score => (
-        <div>{score.point}</div>
+        <div {...score.id}>{score.point}</div>
       ))}
     </div>
   );
